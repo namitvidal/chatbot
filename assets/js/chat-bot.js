@@ -867,9 +867,7 @@ loadInitialDivElements();
 
 // network List flow start
 function networkList() {
-  console.log("******")
-  clarity("set", "Network_List_click", "true");
-  console.log("###")
+  // clarity("set", "Network_List_click", "true");
   document.getElementById("network-list").classList.add("active");
 
   document.getElementById("e-card").classList.remove("active");
