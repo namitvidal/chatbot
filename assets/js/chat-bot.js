@@ -867,7 +867,7 @@ loadInitialDivElements();
 
 // network List flow start
 function networkList() {
-  // clarity("set", "Network_List_click", "true");
+  clarity("set", "Network_List_click", "true");
   document.getElementById("network-list").classList.add("active");
 
   document.getElementById("e-card").classList.remove("active");
@@ -878,7 +878,7 @@ function networkList() {
   document.getElementById("claimprocess").classList.remove("active");
   document.getElementById("download").classList.remove("active");
 
-  sendMessage("You have selected a  Network List");
+  // sendMessage("You have selected a  Network List");
   // {
   //   let elementCPT = document.createElement("div");
   //   elementCPT.classList.add("captionBot", "msgCaption");
