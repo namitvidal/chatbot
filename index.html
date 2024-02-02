@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Home | Vidal Health Insurance TPA Services</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+    rel="stylesheet">
+  <!-- Vendor CSS Files -->
+  <link rel="stylesheet" href="assets/dist/drawerr.css">
+  <link rel="stylesheet" href="dist/drawerr.css">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/css/owl.carousel.css" rel="stylesheet">
+  <link href="assets/css/owl.theme.default.css" rel="stylesheet">
+  <!-- Template Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.0/css/font-awesome.css" 
+    integrity="sha512-CB+XYxRC7cXZqO/8cP3V+ve2+6g6ynOnvJD6p4E4y3+wwkScH9qEOla+BTHzcwB4xKgvWn816Iv0io5l3rAOBA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link href="assets/css/odometer.css" rel="stylesheet">
+   <script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "kuygppmky1");
+</script>
+</head>
+
+<body>
+  <!-- ======= Header ======= -->
+
+
+
+  
+  <!-- End #main -->
+  <!-- Feedback popup -->
+  <!-- end -->
+  <!-- chatboat start -->
+
+  <!-- refresh-chat -->
+  <div class="refresh-chat-popup" id="refresh-popup">
+    <i class="fa fa-times close-refreshpopup"></i>
+    <h2>Are you sure? </h2>
+    <p>
+      You will not be able to recover this chat!
+
+    </p>
+
+    <a class="btn confirm-btn close-refreshpopup">Yes</a>
+
+
+  </div>
+  <!-- end -->
+
+
+
+  <form class="feedback-popup" id="feedback">
+    <i class="fa fa-times close-chat2"></i>
+    <h2>Was I Helpful?</h2>
+    <p>Your feedback matters!
+    </p>
+    <div class="feedback">
+      <div class="rating">
+        <input type="radio" name="rating" id="rating-5">
+        <label for="rating-5"></label>
+        <input type="radio" name="rating" id="rating-4">
+        <label for="rating-4"></label>
+        <input type="radio" name="rating" id="rating-3">
+        <label for="rating-3"></label>
+        <input type="radio" name="rating" id="rating-2">
+        <label for="rating-2"></label>
+        <input type="radio" name="rating" id="rating-1">
+        <label for="rating-1"></label>
+      </div>
+    </div>
+    <div class="query-box mb-2" style="display: none;">
+      <textarea id="query-textbox" placeholder="Tell us more..." class="form-control" required></textarea>
+      <!-- <a class="btn confirm-btn close-chat1">Submit</a> -->
+    </div>
+    <p>On exiting, all chat history will be cleared.</p>
+    <!-- <a class="btn confirm-btn close-chat1" id="conf-text">Confirm</a> -->
+    <input type="submit" class="btn confirm-btn close-chat1" id="conf-text" value="Confirm">
+
+  </form>
+  <div>
+    <img src="assets/img/vidal-chat-bot-new.png" class="chat-img">
+    <p class="chat-chat-text">Ask VH Assist</p>
+  </div>
+  <div class="container chat-bot-container" id="chat-bot-container">
+    <div class="top">
+      <div class="AvatarBot">
+        <img src="assets/img/favicon.png" alt="RagBot">
+      </div>
+      <div class="InfoBot">
+        <p class="TitleBot">Ask VH Assist</p>
+        <!---<p class="status">Online</p>-->
+      </div>
+      <div class="full-screen-btn">
+        <img src="assets/img/icon/fullscreen.svg" class="full-screen-img">
+        <img src="assets/img/icon/fullscreen-exit.svg" class="small-screen-img">
+      </div>
+      <div>
+        <img src="assets/img/icon/refresh.png" class="refresh-img">
+        <i class="fa fa-chevron-down minimise-chat"></i>
+        <i class="fa fa-times close-chat"></i>
+      </div>
+    </div>
+    <div class="ContentChat" id="ContentChat">
+      <div class="d-none" id="scrolling">
+        <div onclick="scrollToTop()" id="scroll-top">
+          <div class="chat-bottom arrow-2"></div>
+        </div>
+        <div onclick="scrollToBottom()" id="scroll-bottom">
+          <div class="chat-bottom arrow-1"></div>
+        </div>
+      </div>
+      <!-- 
+               <div onclick="scrollToTop()" class="chat-boat-img-bottom">
+                 <div class="chat-bottom arrow-2"></div>
+               
+               </div> -->
+      <div class="top-welcome">
+        <p style="margin-bottom:0px">Hi,</p>
+        <p style="margin-bottom:0px"> Welcome to Vidal Health Virtual Assistant.
+          I am here to help you with any query. To begin, please select from the option below.
+        </p>
+      </div>
+    </div>
+    <div class="  align-items-center d-flex bottom-chat"
+      style="justify-content: space-between;background-color: #fff;padding-right: 8px; ">
+      <!-- <div class="menu-chat"><i class="fa fa-bars"></i></div> -->
+      <div class="BoxSentMSG ">
+        <input type="text " placeholder="Type your message here " class="InputMSG "  required
+          style="padding-left: 15px;">
+        <div class="send-icon">
+          <svg id="send1" xmlns="http://www.w3.org/2000/svg " viewBox="0 0 24 24 " xml:space="preserve ">
+            <path fill="#008C8D "
+              d="M22,11.7V12h-0.1c-0.1,1-17.7,9.5-18.8,9.1c-1.1-0.4,2.4-6.7,3-7.5C6.8,12.9,17.1,12,17.1,12H17c0,0,0-0.2,0-0.2c0,0,0,0,0,0c0-0.4-10.2-1-10.8-1.7c-0.6-0.7-4-7.1-3-7.5C4.3,2.1,22,10.5,22,11.7z ">
+            </path>
+          </svg>
+          <svg id="send2" class="none" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="24px" height="30px" viewBox="0 0 24 30"
+            style="enable-background:new 0 0 50 50;" xml:space="preserve">
+            <rect x="0" y="10" width="4" height="4" fill="#333" opacity="0.2">
+              <animate attributeName="opacity" attributeType="XML" values="0.2; 1; .2" begin="0s" dur="0.6s"
+                repeatCount="indefinite"></animate>
+              <animate attributeName="height" attributeType="XML" values="10; 20; 10" begin="0s" dur="0.6s"
+                repeatCount="indefinite"></animate>
+              <animate attributeName="y" attributeType="XML" values="10; 5; 10" begin="0s" dur="0.6s"
+                repeatCount="indefinite"></animate>
+            </rect>
+            <rect x="8" y="10" width="4" height="4" fill="#333" opacity="0.2">
+              <animate attributeName="opacity" attributeType="XML" values="0.2; 1; .2" begin="0.15s" dur="0.6s"
+                repeatCount="indefinite"></animate>
+              <animate attributeName="height" attributeType="XML" values="10; 20; 10" begin="0.15s" dur="0.6s"
+                repeatCount="indefinite"></animate>
+              <animate attributeName="y" attributeType="XML" values="10; 5; 10" begin="0.15s" dur="0.6s"
+                repeatCount="indefinite"></animate>
+            </rect>
+            <rect x="16" y="10" width="4" height="10" fill="#333" opacity="0.2">
+              <animate attributeName="opacity" attributeType="XML" values="0.2; 1; .2" begin="0.3s" dur="0.6s"
+                repeatCount="indefinite"></animate>
+              <animate attributeName="height" attributeType="XML" values="10; 20; 10" begin="0.3s" dur="0.6s"
+                repeatCount="indefinite"></animate>
+              <animate attributeName="y" attributeType="XML" values="10; 5; 10" begin="0.3s" dur="0.6s"
+                repeatCount="indefinite"></animate>
+            </rect>
+          </svg>
+        </div>
+      </div>
+      <div id="playButton"> <span><i class="fa fa-microphone mic-catbot" aria-hidden="true"></i></span></div>
+    </div>
+    <!-- chat menu -->
+    <!-- 
+            <div class="chat-menu-container ">
+                <div class="chat-side-menu" text-last="true" id="network-list"  onclick="networkList()" >Network List</div>
+                <div class="chat-side-menu" text-last="true" id="e-card" onclick="ecard();">E-Card</div>
+                <div class="chat-side-menu" text-last="true" id="claimstatus" onclick="claimstatus()">Claim Status</div> 
+                <div class="chat-side-menu" text-last="true" id="cashless" onclick="cashless()">Cashless Status</div>
+                <div class="chat-side-menu" text-last="true" id="claimintimation" onclick=" claimintimation()">Claim Intimation</div>
+                <div class="chat-side-menu" text-last="true" id="branches"  onclick="branches()">Branches</div>
+                <div class="chat-side-menu" text-last="true"  id="claimprocess"  onclick="claimprocess()">Claim Process</div>
+                <div class="chat-side-menu" text-last="true" id="download">Download</div>
+            </div> -->
+  </div>
+  <!-- end -->
+  <!-- ======= Footer ======= -->
+  
+  <!-- End Footer -->
+  <!-- End Footer -->
+ 
+  
+  <!-- Vendor JS Files -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"
+    integrity="sha512-2rNj2KJ+D8s1ceNasTIex6z4HWyOnEYLVC3FigGOmyQCZc2eBXKgOxQmo3oKLHyfcj53uz4QMsRCWNbLd32Q1g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>  
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script> 
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script> 
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/js/owl.carousel.min.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/chat-bot.js"></script>
+  <script src="https://cdn.polyfill.io/v2/polyfill.js"></script>
+  <script src="dist/drawerr.js"></script>
+  <script src="assets/js/odometer.min.js"></script>
+
+  <!-- Template Main JS File -->
+  <script>
+    const x = new drawerrMultilevel({
+      drawerr: '#drawerr'
+    });
+
+
+
+  </script>
+
+  <script>
+    // Miles counter, odometer
+
+    (function () {
+      var odo1 = document.getElementById("odometer");
+      var counter = 0;
+      window.odometerOptions = {
+        duration: 1000,
+        theme: 'default'
+      };
+
+      odo1.innerHTML = counter;
+
+      setInterval(function () {
+        counter = 20;
+        odo1.innerHTML = counter;
+      }, 1000);
+    })();
+
+
+    (function () {
+      var odo1 = document.getElementById("odometer1");
+      var counter = 0;
+      window.odometerOptions = {
+        duration: 1000,
+        theme: 'default'
+      };
+
+      odo1.innerHTML = counter;
+
+      setInterval(function () {
+        counter = 40;
+        odo1.innerHTML = counter;
+      }, 1000);
+    })();
+    (function () {
+      var odo1 = document.getElementById("odometer2");
+      var counter = 0;
+      window.odometerOptions = {
+        duration: 1000,
+        theme: 'default'
+      };
+
+      odo1.innerHTML = counter;
+
+      setInterval(function () {
+        counter = 100;
+        odo1.innerHTML = counter;
+      }, 1000);
+    })();
+
+    (function () {
+      var odo1 = document.getElementById("odometer3");
+      var counter = 0;
+      window.odometerOptions = {
+        duration: 1000,
+        theme: 'default'
+      };
+
+      odo1.innerHTML = counter;
+
+      setInterval(function () {
+        counter = 1000;
+        odo1.innerHTML = counter;
+      }, 1000);
+    })();
+
+    (function () {
+      var odo1 = document.getElementById("odometer4");
+      var counter = 0;
+      window.odometerOptions = {
+        duration: 1000,
+        theme: 'default'
+      };
+
+      odo1.innerHTML = counter;
+
+      setInterval(function () {
+        counter = 100;
+        odo1.innerHTML = counter;
+      }, 1000);
+    })();
+
+
+
+  </script>
+  <!-- Template Main JS File -->
+</body>
+
+</html>
